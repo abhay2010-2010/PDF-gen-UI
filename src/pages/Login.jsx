@@ -18,6 +18,8 @@ const LoginForm = () => {
         body: JSON.stringify({ email, username, password, role }),
       });
 
+
+      
       const data = await response.json();
 
       if (response.ok) {
